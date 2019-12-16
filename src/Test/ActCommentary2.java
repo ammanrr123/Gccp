@@ -19,7 +19,7 @@ public class ActCommentary2 {
 	public static void main(String[] args) throws Exception {
 		//launching the browser
 		try {
-			System.setProperty("webdriver.chrome.driver","C:\\Users\\ammanrr.CORP\\eclipse-workspace\\Error\\chromedriver.exe");}
+			System.setProperty("webdriver.chrome.driver","C:\\Users\\ammanrr\\eclipse-workspace\\Error\\chromedriver.exe");}
 		catch(Exception e){
 			System.out.println("unable to find the chrome driver");
 		}
@@ -30,7 +30,7 @@ public class ActCommentary2 {
 		
 		//searching for user data file
         try {
-        	Utility.setExcelFile("C:\\Users\\ammanrr.CORP\\eclipse-workspace\\Error\\UploadCommentary2p.xlsx", "Sheet1");
+        	Utility.setExcelFile("C:\\Users\\ammanrr\\eclipse-workspace\\Error\\UploadCommentary2p.xlsx", "Sheet1");
 		} catch (Exception e) {
 			System.out.println("Given Updated user input file is not availble in specified location");
 		}

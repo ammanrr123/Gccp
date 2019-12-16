@@ -11,7 +11,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 //import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.ss.usermodel.Row.MissingCellPolicy;
 public class Utility {
-public static final String Path="C:\\Users\\ammanrr.CORP\\eclipse-workspace\\Error\\UploadCommentary2p.xlsx";
+public static final String Path="C:\\Users\\ammanrr\\eclipse-workspace\\Error\\UploadCommentary2p.xlsx";
 private static XSSFSheet ExcelWSheet;
 private static XSSFWorkbook ExcelWBook;
 private static XSSFCell Cell;
